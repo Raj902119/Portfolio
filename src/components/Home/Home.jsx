@@ -12,6 +12,7 @@ import "./Home.scss";
 
 import React from 'react'
 import Footer from "../footer/Footer";
+import Project3 from "../project/Project3";
 
 const Home = () => {
   return (<div className="webapp">
@@ -36,6 +37,9 @@ const Home = () => {
   </section>
   <section id="Project2">
     <Project2 />
+  </section>
+  <section id="Project3">
+    <Project3 />
   </section>
   <section id="Contact">
     <Contact />

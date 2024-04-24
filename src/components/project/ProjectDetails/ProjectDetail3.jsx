@@ -30,7 +30,7 @@ const ProjectDetail3 = () => {
         </div>
         <div className="video">
           <video autoPlay>
-            <source src="/fitness.mp4" type="video/mp4" />
+            <source src="/ecommerce.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="about1">
