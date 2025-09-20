@@ -1,0 +1,388 @@
+.skills{
+    background: linear-gradient(180deg,#111132,#1f1f2c);
+    height: 800px;
+    margin: 0 100px;
+ 
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 100%;
+        margin: 0 4rem;
+        padding-top: 2rem;
+
+        .heading{
+            margin: 4rem 0;
+            h1{
+                font-size: 2rem;
+                color: aliceblue;
+                font-weight: 600;
+            }
+            hr{
+                margin-top: 10px;
+                height: 2px;
+                border: 1px solid white;
+            }
+
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap; /* Enable wrapping */
+            justify-content: center;
+            align-items: center;
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                height: auto;
+                padding: 1rem;
+                margin: 1.5rem; /* Adjusted margin */
+                width: auto; /* Calculate width for 4 boxes per row */
+                background: linear-gradient(180deg, #25255d, #4a4a7d);
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+
+                .icon{
+                    margin: 1rem 0;
+                    height: 3rem;
+                    width: 3rem;
+                    transition: transform 2s ease; /* Add transition for smooth animation */
+
+                    &:hover {
+                        transform: rotate(360deg); /* Rotate 360 degrees on hover */
+                    }
+                }
+
+                h1{
+                    font-size: 2rem;
+                    margin-bottom: 5px;                }
+
+                hr {
+                    width: 100%;
+                    background-color: rgb(12, 53, 53);
+                    height: 2px;
+                    border: rgb(12, 53, 53);
+                    margin-bottom: 7px;
+                  }
+            }
+        }
+    }
+}
+
+@media (max-width:1030px){
+    .skills{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        margin: 0 0;
+        padding: 50px 0;
+     
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: 100%;
+            margin: 0 4rem;
+            padding-top: 2rem;
+    
+            .heading{
+                margin: 4rem 0;
+                h1{
+                    font-size: 2rem;
+                    color: aliceblue;
+                    font-weight: 600;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+    
+            }
+    
+            .content {
+                display: flex;
+                flex-wrap: wrap; /* Enable wrapping */
+                justify-content: center;
+                align-items: center;
+    
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    height: auto;
+                    padding: 1rem;
+                    margin: 1.5rem; /* Adjusted margin */
+                    width: auto; /* Calculate width for 4 boxes per row */
+                    background: linear-gradient(180deg, #25255d, #4a4a7d);
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+                    .icon{
+                        margin: 1rem 0;
+                        height: 3rem;
+                        width: 3rem;
+                        transition: transform 2s ease; /* Add transition for smooth animation */
+    
+                        &:hover {
+                            transform: rotate(360deg); /* Rotate 360 degrees on hover */
+                        }
+                    }
+    
+                    h1{
+                        font-size: 2rem;
+                        margin-bottom: 5px;                }
+    
+                    hr {
+                        width: 100%;
+                        background-color: rgb(12, 53, 53);
+                        height: 2px;
+                        border: rgb(12, 53, 53);
+                        margin-bottom: 7px;
+                      }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:770px){
+    .skills{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        padding: 0 0;
+     
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: 100%;
+            margin: 0 45px;
+            padding-top: 2rem;
+    
+            .heading{
+                margin: 30px 0;
+                h1{
+                    font-size: 1.8rem;
+                    color: aliceblue;
+                    font-weight: 600;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+    
+            }
+    
+            .content {
+                display: flex;
+                flex-wrap: wrap; /* Enable wrapping */
+                justify-content: center;
+                align-items: center;
+    
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    height: auto;
+                    padding: 1rem;
+                    margin: 1rem; /* Adjusted margin */
+                    width: auto; /* Calculate width for 4 boxes per row */
+                    background: linear-gradient(180deg, #25255d, #4a4a7d);
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+                    .icon{
+                        margin: 1rem 0;
+                        height: 3rem;
+                        width: 3rem;
+                        transition: transform 2s ease; /* Add transition for smooth animation */
+    
+                        &:hover {
+                            transform: rotate(360deg); /* Rotate 360 degrees on hover */
+                        }
+                    }
+    
+                    h1{
+                        font-size: 1.8rem;
+                        margin-bottom: 5px;                }
+    
+                    hr {
+                        width: 100%;
+                        background-color: rgb(12, 53, 53);
+                        height: 2px;
+                        border: rgb(12, 53, 53);
+                        margin-bottom: 7px;
+                      }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .skills{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        padding: 0 0;
+     
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: 100%;
+            margin: 0 20px;
+            padding-top: 2rem;
+    
+            .heading{
+                margin: 15px 0;
+                h1{
+                    font-size: 1.5rem;
+                    color: aliceblue;
+                    font-weight: 600;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+    
+            }
+    
+            .content {
+                display: flex;
+                flex-wrap: wrap; /* Enable wrapping */
+                justify-content: center;
+                align-items: center;
+    
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    height: auto;
+                    padding: 0.6rem;
+                    margin: 0.6rem; /* Adjusted margin */
+                    width: auto; /* Calculate width for 4 boxes per row */
+                    background: linear-gradient(180deg, #25255d, #4a4a7d);
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+                    .icon{
+                        margin: 0.8rem 0;
+                        height: 2rem;
+                        width: 2rem;
+                        transition: transform 2s ease; /* Add transition for smooth animation */
+    
+                        &:hover {
+                            transform: rotate(360deg); /* Rotate 360 degrees on hover */
+                        }
+                    }
+    
+                    h1{
+                        font-size: 1.5rem;
+                        margin-bottom: 5px;                }
+    
+                    hr {
+                        width: 100%;
+                        background-color: rgb(12, 53, 53);
+                        height: 1px;
+                        border: rgb(12, 53, 53);
+                        margin-bottom: 7px;
+                      }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:350px){
+    .skills{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        padding: 0 0;
+     
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: 100%;
+            margin: 0 10px;
+            padding-top: 2rem;
+    
+            .heading{
+                margin: 15px 0;
+                h1{
+                    font-size: 1.5rem;
+                    color: aliceblue;
+                    font-weight: 600;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+    
+            }
+    
+            .content {
+                display: flex;
+                flex-wrap: wrap; /* Enable wrapping */
+                justify-content: center;
+                align-items: center;
+    
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    height: auto;
+                    padding: 0.6rem;
+                    margin: 0.6rem; /* Adjusted margin */
+                    width: auto; /* Calculate width for 4 boxes per row */
+                    background: linear-gradient(180deg, #25255d, #4a4a7d);
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+                    .icon{
+                        margin: 0.6rem 0;
+                        height: 1.5rem;
+                        width: 1.5rem;
+                        transition: transform 2s ease; /* Add transition for smooth animation */
+    
+                        &:hover {
+                            transform: rotate(360deg); /* Rotate 360 degrees on hover */
+                        }
+                    }
+    
+                    h1{
+                        font-size: 1.2rem;
+                        margin-bottom: 5px;                }
+    
+                    hr {
+                        width: 100%;
+                        background-color: rgb(12, 53, 53);
+                        height: 1px;
+                        border: rgb(12, 53, 53);
+                        margin-bottom: 7px;
+                      }
+                }
+            }
+        }
+    }
+}

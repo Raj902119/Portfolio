@@ -1,0 +1,458 @@
+.project1{
+    background: linear-gradient(180deg, #111132, #0c0c1d);
+    height: auto;
+
+    .wrapper{
+        margin: 0 200px;
+
+        .home{
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            margin-right: 20px;
+    
+            hr{
+                margin-top: 5px;
+                width: 130px;
+            }
+        }
+    
+        .dis{
+            button{
+                margin: 2rem;
+                padding: 1rem;
+                background-color: transparent;
+                color: aliceblue;
+                border: 2px solid aqua;
+            }
+    
+            hr{
+                border: 2px solid lightgray; 
+                width: 300px;
+                margin-bottom: 40px;
+            }
+
+            h1{
+                font-weight: bold;
+                font-size: 3rem;
+                margin-bottom: 30px;
+                color: aliceblue;
+            }
+
+            p{
+                font-size: 1.2rem;
+            }
+        }
+
+        .video{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            video{
+                height: 600px;
+                width: 800px;
+            }
+        }
+
+        .about1 {
+            display: flex;
+            flex-direction: column;
+            background: transparent;
+            padding: 20px 50px;
+        
+            h1 {
+                font-weight: bold;
+                font-size: 2.5rem;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+            }
+            h2 {
+                font-weight: bold;
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            ul {
+                margin: 0 40px;
+                padding-bottom: 40px; /* Change margin-bottom to padding-bottom */
+
+            }
+        }
+    }
+    
+}
+
+@media (max-width:1200px){
+    .project1{
+        background: linear-gradient(180deg, #111132, #0c0c1d);
+        height: auto;
+    
+        .wrapper{
+            margin: 0 100px;
+    
+            .home{
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                margin-right: 20px;
+        
+                hr{
+                    margin-top: 5px;
+                    width: 130px;
+                }
+            }
+        
+            .dis{
+                button{
+                    margin: 2rem;
+                    padding: 1rem;
+                    background-color: transparent;
+                    color: aliceblue;
+                    border: 2px solid aqua;
+                }
+        
+                hr{
+                    border: 2px solid lightgray; 
+                    width: 300px;
+                    margin-bottom: 40px;
+                }
+    
+                h1{
+                    font-weight: bold;
+                    font-size: 3rem;
+                    margin-bottom: 30px;
+                    color: aliceblue;
+                }
+    
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .video{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .about1 {
+                display: flex;
+                flex-direction: column;
+                background: transparent;
+                padding: 20px 0;
+            
+                h1 {
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 1.2rem;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    margin: 0 40px;
+                    padding-bottom: 40px; /* Change margin-bottom to padding-bottom */
+    
+                }
+            }
+        }
+        
+    }
+}
+
+@media (max-width:770px){
+    .project1{
+        background: linear-gradient(180deg, #111132, #0c0c1d);
+        height: auto;
+    
+        .wrapper{
+            margin: 0 50px;
+    
+            .home{
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                margin-right: 20px;
+        
+                hr{
+                    margin-top: 5px;
+                    width: 130px;
+                }
+            }
+        
+            .dis{
+                button{
+                    margin: 1.5rem;
+                    padding: 1rem;
+                    background-color: transparent;
+                    color: aliceblue;
+                    border: 2px solid aqua;
+                }
+        
+                hr{
+                    border: 2px solid lightgray; 
+                    width: 300px;
+                    margin-bottom: 25px;
+                }
+    
+                h1{
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                    margin-bottom: 20px;
+                    color: aliceblue;
+                }
+    
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+    
+            .video{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                video{
+                    height: 450px;
+                    width: 600px;
+                }
+            }
+    
+            .about1 {
+                display: flex;
+                flex-direction: column;
+                background: transparent;
+                padding: 20px 0;
+            
+                h1 {
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 1.2rem;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    margin: 0 40px;
+                    padding-bottom: 40px; /* Change margin-bottom to padding-bottom */
+    
+                }
+            }
+        }
+        
+    }
+}
+
+@media(max-width:500px){
+    .project1{
+        background: linear-gradient(180deg, #111132, #0c0c1d);
+        height: auto;
+    
+        .wrapper{
+            margin: 0 20px;
+    
+            .home{
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                margin-right: 20px;
+        
+                hr{
+                    margin-top: 5px;
+                    width: 130px;
+                    text-align: center;
+                }
+            }
+        
+            .dis{
+                button{
+                    margin: 2rem 1rem;
+                    padding: 1rem;
+                    background-color: transparent;
+                    color: aliceblue;
+                    border: 2px solid aqua;
+                }
+        
+                hr{
+                    border: 2px solid lightgray; 
+                    width: 300px;
+                    margin-bottom: 25px;
+                }
+    
+                h1{
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    margin-bottom: 20px;
+                    color: aliceblue;
+                    text-align: center;
+                }
+    
+                p{
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            }
+    
+            .video{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                video{
+                    height: 300px;
+                    width: 350px;
+                }
+            }
+    
+            .about1 {
+                display: flex;
+                flex-direction: column;
+                background: transparent;
+                padding: 20px 0;
+            
+                h1 {
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                h2 {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                ul {
+                    margin: 0 40px;
+                    padding-bottom: 40px; /* Change margin-bottom to padding-bottom */
+    
+                }
+            }
+        }
+        
+    }
+}
+
+@media(max-width:350px){
+    .project1{
+        background: linear-gradient(180deg, #111132, #0c0c1d);
+        height: auto;
+    
+        .wrapper{
+            margin: 0 20px;
+    
+            .home{
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                margin-right: 20px;
+        
+                hr{
+                    margin-top: 5px;
+                    width: 130px;
+                }
+            }
+        
+            .dis{
+                button{
+                    margin: 2rem 1rem;
+                    padding: 1rem;
+                    background-color: transparent;
+                    color: aliceblue;
+                    border: 2px solid aqua;
+                }
+        
+                hr{
+                    border: 2px solid lightgray; 
+                    width: 250px;
+                    margin-bottom: 25px;
+                }
+    
+                h1{
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    margin-bottom: 20px;
+                    color: aliceblue;
+                }
+    
+                p{
+                    font-size: 1rem;
+                }
+            }
+    
+            .video{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                video{
+                    height: 280px;
+                    width: 300px;
+                }
+            }
+    
+            .about1 {
+                display: flex;
+                flex-direction: column;
+                background: transparent;
+                padding: 20px 0;
+            
+                h1 {
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    margin: 0 40px;
+                    padding-bottom: 40px; /* Change margin-bottom to padding-bottom */
+    
+                }
+            }
+        }
+        
+    }
+}

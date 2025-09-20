@@ -1,0 +1,340 @@
+.about{
+    background: linear-gradient(180deg,#111132,#1f1f2c);
+    height: 800px;
+    margin: 0 100px;
+    
+    .wrapper{
+        width: auto;
+        height: 100%;
+        margin: 0 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        .title{
+            height: 10%;
+
+            h1{
+                font-size: 2.8rem;
+                font-weight: 600;
+                color: aliceblue;
+            }
+            hr{
+                margin-top: 10px;
+                height: 2px;
+                border: 1px solid white;
+            }
+        }
+        
+        .content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .lcontent{
+                width: 50%;
+                margin: 2rem;
+
+                h1{
+                    font-size: 2.3rem;
+                    font-weight: bold;
+                    color: aliceblue;
+                    margin-bottom: 2rem;
+                }
+
+                p{
+                    font-size: 1.4rem;
+                    color: aliceblue;
+                }
+            }
+            .rcontent{
+                width: 50%;
+                
+                .rbox{
+                    padding-top: 1rem;
+                    padding-bottom: 2rem;
+
+                    h1{
+                        font-size: 2rem;
+                        color: aliceblue;
+                        margin: 10px 0;
+
+                        .no{
+                            font-size: 2.4rem;
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                p{
+                    font-size: 1.4rem;
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .about{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        margin: 0 0;
+        padding: 50px 0;
+        
+        .wrapper{
+            width: auto;
+            height: 100%;
+            margin: 0 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+    
+            .title{
+                height: 10%;
+    
+                h1{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    color: aliceblue;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+            }
+            
+            .content{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+    
+                .lcontent{
+                    width: 50%;
+                    margin: 2rem;
+    
+                    h1{
+                        font-size: 2.3rem;
+                        font-weight: bold;
+                        color: aliceblue;
+                        margin-bottom: 2rem;
+                    }
+    
+                    p{
+                        font-size: 1.2rem;
+                        color: aliceblue;
+                    }
+                }
+                .rcontent{
+                    width: 50%;
+                    
+                    .rbox{
+                        padding-top: 1rem;
+                        padding-bottom: 2rem;
+    
+                        h1{
+                            font-size: 2rem;
+                            color: aliceblue;
+                            margin: 10px 0;
+    
+                            .no{
+                                font-size: 2.4rem;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+    
+                    p{
+                        font-size: 1.2rem;
+                        color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:770px) {
+    .about{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        margin: 0 0;
+        padding: 50px 0;
+        
+        .wrapper{
+            width: auto;
+            height: 100%;
+            margin: 0 45px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+    
+            .title{
+                height: 10%;
+    
+                h1{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    color: aliceblue;
+                    text-align: center;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+            }
+            
+            .content{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin: 20px 0;
+    
+                .lcontent{
+                    width: 50%;
+                    margin: 0rem;
+    
+                    h1{
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: aliceblue;
+                        margin-bottom: 2rem;
+                    }
+    
+                    p{
+                        font-size: 1.1rem;
+                        color: aliceblue;
+                    }
+                }
+                .rcontent{
+                    width: 50%;
+                    
+                    .rbox{
+                        padding-top: 1rem;
+                        padding-bottom: 2rem;
+    
+                        h1{
+                            font-size: 1.8rem;
+                            color: aliceblue;
+                            margin: 10px 0;
+    
+                            .no{
+                                font-size: 2.4rem;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+    
+                    p{
+                        font-size: 1.1rem;
+                        color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .about{
+        background: linear-gradient(180deg,#111132,#1f1f2c);
+        height: auto;
+        margin: 0 0;
+        padding: 50px 0;
+        
+        .wrapper{
+            width: auto;
+            height: 100%;
+            margin: 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+    
+            .title{
+                height: 10%;
+    
+                h1{
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: aliceblue;
+                    text-align: center;
+                }
+                hr{
+                    margin-top: 10px;
+                    height: 2px;
+                    border: 1px solid white;
+                }
+            }
+            
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin: 20px 0;
+    
+                .lcontent{
+                    width: 100%;
+                    margin: 0rem;
+    
+                    h1{
+                        font-size: 1.8rem;
+                        font-weight: bold;
+                        color: aliceblue;
+                        margin-bottom: 2rem;
+                        text-align: center;
+                    }
+    
+                    p{
+                        font-size: 1rem;
+                        color: aliceblue;
+                        text-align: center;
+                    }
+                }
+                .rcontent{
+                    width: 100%;
+                    
+                    .rbox{
+                        padding-top: 1rem;
+                        padding-bottom: 2rem;
+    
+                        h1{
+                            font-size: 1.8rem;
+                            color: aliceblue;
+                            margin: 10px 0;
+                            text-align: center;
+    
+                            .no{
+                                font-size: 2rem;
+                                font-weight: bold;
+                                text-align: center;
+                            }
+                        }
+                    }
+    
+                    p{
+                        font-size: 1rem;
+                        color: aliceblue;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

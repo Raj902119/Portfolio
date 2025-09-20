@@ -1,0 +1,306 @@
+.contact{
+    background: linear-gradient(180deg,#1f1f2c, #111132);
+    height: calc(100vh - 50px);
+    margin: 0 100px;
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        margin: 0 8rem;
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+
+            h1{
+                font-size: 3rem;
+                color: aliceblue;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+            .text{
+                margin-bottom: 30px;
+                h3{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    color: aliceblue;
+                }
+                p{
+                    font-size: 1.2rem;
+    
+                }
+            }
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            margin: 0 2rem;
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                input,textarea{
+                    padding: 20px;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    color: white;
+                    border-radius: 5px;
+                    width: auto;
+
+                }
+
+                button{
+                    padding: 20px;
+                    border:none;
+                    width: auto;
+                    background-color: orange;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:1030px){
+    .contact{
+        background: linear-gradient(180deg,#1f1f2c, #111132);
+        height: calc(100vh - 50px);
+        margin: 0 0;
+        padding: 50px 0;
+    
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            height: 100%;
+            margin: 0 8rem;
+    
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+    
+                h1{
+                    font-size: 3rem;
+                    color: aliceblue;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                }
+    
+                .text{
+                    margin-bottom: 30px;
+                    h3{
+                        font-size: 2rem;
+                        font-weight: 600;
+                        color: aliceblue;
+                    }
+                    p{
+                        font-size: 1.2rem;
+        
+                    }
+                }
+            }
+    
+            .form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+                margin: 0 2rem;
+    
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+    
+                    input,textarea{
+                        padding: 20px;
+                        background-color: transparent;
+                        border: 1px solid white;
+                        color: white;
+                        border-radius: 5px;
+                        width: auto;
+    
+                    }
+    
+                    button{
+                        padding: 20px;
+                        border:none;
+                        width: auto;
+                        background-color: orange;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+@media (max-width:770px){
+    .contact{
+        background: linear-gradient(180deg,#1f1f2c, #111132);
+        height: calc(100vh - 50px);
+        margin: 0 0;
+        padding: 50px 0;
+    
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            height: 100%;
+            margin: 0 45px;
+    
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+    
+                h1{
+                    font-size: 2.8rem;
+                    color: aliceblue;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                }
+    
+                .text{
+                    margin-bottom: 30px;
+                    h3{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        color: aliceblue;
+                    }
+                    p{
+                        font-size: 1.2rem;
+        
+                    }
+                }
+            }
+    
+            .form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+                margin: 0 2rem;
+    
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+    
+                    input,textarea{
+                        padding: 20px;
+                        background-color: transparent;
+                        border: 1px solid white;
+                        color: white;
+                        border-radius: 5px;
+                        width: auto;
+    
+                    }
+    
+                    button{
+                        padding: 20px;
+                        border:none;
+                        width: auto;
+                        background-color: orange;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .contact{
+        background: linear-gradient(180deg,#1f1f2c, #111132);
+        height: auto;
+        margin: 0 0;
+        padding: 45px 0;
+    
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            height: 100%;
+            margin: 0 15px;
+    
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+    
+                h1{
+                    font-size: 2.2rem;
+                    color: aliceblue;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+    
+                .text{
+                    margin-bottom: 30px;
+                    h3{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        color: aliceblue;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        text-align: center;
+        
+                    }
+                }
+            }
+    
+            .form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                margin: 0 0;
+    
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+    
+                    input,textarea{
+                        padding: 20px;
+                        background-color: transparent;
+                        border: 1px solid white;
+                        color: white;
+                        border-radius: 5px;
+                        width: auto;
+    
+                    }
+    
+                    button{
+                        padding: 20px;
+                        border:none;
+                        width: auto;
+                        background-color: orange;
+                    }
+                }
+    
+            }
+        }
+    }
+}
