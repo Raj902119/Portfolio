@@ -2,7 +2,7 @@ import Navbar from "../navbar/Navbar";
 import Hero from "../hero/Hero";
 import Expirence from "../expirence/Expirence";
 import Projects from "../project/Projects";
-import Project1 from "../project/project1";
+import Project1 from "../project/Project1";
 import Project2 from "../project/Project2";
 import About from "../about/About"
 import Skills from "../skills/Skills"
