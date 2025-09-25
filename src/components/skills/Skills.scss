@@ -28,10 +28,13 @@
         }
 
         .content {
-            display: flex;
-            flex-wrap: wrap; /* Enable wrapping */
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            justify-items: center;
             align-items: center;
+            max-width: 100%;
+            padding: 0 1rem;
 
             .box {
                 display: flex;
@@ -39,18 +42,18 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 10px;
-                height: auto;
+                height: 140px;
                 padding: 1rem;
-                margin: 1.5rem; /* Adjusted margin */
-                width: auto; /* Calculate width for 4 boxes per row */
+                width: 100%;
+                max-width: 180px;
                 background: linear-gradient(180deg, #25255d, #4a4a7d);
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
 
                 .icon{
-                    margin: 1rem 0;
-                    height: 3rem;
-                    width: 3rem;
+                    margin: 0.8rem 0;
+                    height: 3.5rem;
+                    width: 3.5rem;
                     transition: transform 2s ease; /* Add transition for smooth animation */
 
                     &:hover {
@@ -106,10 +109,13 @@
             }
     
             .content {
-                display: flex;
-                flex-wrap: wrap; /* Enable wrapping */
-                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+                justify-items: center;
                 align-items: center;
+                max-width: 100%;
+                padding: 0 1rem;
     
                 .box {
                     display: flex;
@@ -117,18 +123,18 @@
                     align-items: center;
                     justify-content: center;
                     border-radius: 10px;
-                    height: auto;
-                    padding: 1rem;
-                    margin: 1.5rem; /* Adjusted margin */
-                    width: auto; /* Calculate width for 4 boxes per row */
+                    height: 130px;
+                    padding: 0.9rem;
+                    width: 100%;
+                    max-width: 160px;
                     background: linear-gradient(180deg, #25255d, #4a4a7d);
                     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
     
                     .icon{
-                        margin: 1rem 0;
-                        height: 3rem;
-                        width: 3rem;
+                        margin: 0.8rem 0;
+                        height: 3.2rem;
+                        width: 3.2rem;
                         transition: transform 2s ease; /* Add transition for smooth animation */
     
                         &:hover {
@@ -184,10 +190,13 @@
             }
     
             .content {
-                display: flex;
-                flex-wrap: wrap; /* Enable wrapping */
-                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+                justify-items: center;
                 align-items: center;
+                max-width: 100%;
+                padding: 0 1rem;
     
                 .box {
                     display: flex;
@@ -195,18 +204,18 @@
                     align-items: center;
                     justify-content: center;
                     border-radius: 10px;
-                    height: auto;
-                    padding: 1rem;
-                    margin: 1rem; /* Adjusted margin */
-                    width: auto; /* Calculate width for 4 boxes per row */
+                    height: 130px;
+                    padding: 0.9rem;
+                    width: 100%;
+                    max-width: 160px;
                     background: linear-gradient(180deg, #25255d, #4a4a7d);
                     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
     
                     .icon{
-                        margin: 1rem 0;
-                        height: 3rem;
-                        width: 3rem;
+                        margin: 0.8rem 0;
+                        height: 3.2rem;
+                        width: 3.2rem;
                         transition: transform 2s ease; /* Add transition for smooth animation */
     
                         &:hover {
@@ -262,10 +271,13 @@
             }
     
             .content {
-                display: flex;
-                flex-wrap: wrap; /* Enable wrapping */
-                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.8rem;
+                justify-items: center;
                 align-items: center;
+                max-width: 100%;
+                padding: 0 0.5rem;
     
                 .box {
                     display: flex;
@@ -273,10 +285,10 @@
                     align-items: center;
                     justify-content: center;
                     border-radius: 10px;
-                    height: auto;
+                    height: 100px;
                     padding: 0.6rem;
-                    margin: 0.6rem; /* Adjusted margin */
-                    width: auto; /* Calculate width for 4 boxes per row */
+                    width: 100%;
+                    max-width: 120px;
                     background: linear-gradient(180deg, #25255d, #4a4a7d);
                     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
@@ -340,10 +352,13 @@
             }
     
             .content {
-                display: flex;
-                flex-wrap: wrap; /* Enable wrapping */
-                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.6rem;
+                justify-items: center;
                 align-items: center;
+                max-width: 100%;
+                padding: 0 0.3rem;
     
                 .box {
                     display: flex;
@@ -351,10 +366,10 @@
                     align-items: center;
                     justify-content: center;
                     border-radius: 10px;
-                    height: auto;
-                    padding: 0.6rem;
-                    margin: 0.6rem; /* Adjusted margin */
-                    width: auto; /* Calculate width for 4 boxes per row */
+                    height: 90px;
+                    padding: 0.5rem;
+                    width: 100%;
+                    max-width: 100px;
                     background: linear-gradient(180deg, #25255d, #4a4a7d);
                     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     

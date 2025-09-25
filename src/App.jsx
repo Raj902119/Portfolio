@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home/Home";
-import "./app.scss"
-import ProjectDetail from "./components/project/ProjectDetails/ProjectDetail";
-import ProjectDetail2 from "./components/project/ProjectDetails/ProjectDetail2";
-import ProjectDetail3 from "./components/project/ProjectDetails/ProjectDetail3";
-import ProjectDetail4 from "./components/project/ProjectDetails/ProjectDetail4";
+import Home from "./components/Home/Home.jsx";
+import "./app.scss";
+import ProjectDetail from "./components/project/ProjectDetails/ProjectDetail.jsx";
+import ProjectDetail2 from "./components/project/ProjectDetails/ProjectDetail2.jsx";
+import ProjectDetail3 from "./components/project/ProjectDetails/ProjectDetail3.jsx";
+import ProjectDetail4 from "./components/project/ProjectDetails/ProjectDetail4.jsx";
 
 const App = () => {
   return (

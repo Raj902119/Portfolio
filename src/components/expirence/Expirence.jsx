@@ -14,7 +14,7 @@ const Expirence = () => {
       <hr />
     </div>
       <div className='upcon'>
-        <img src='/logo.png' alt='company logo' />
+        <img src='/sghi.png' alt='company logo' />
         <div className='hed'>
           <h1>Swapsoft Sghitech Pvt Ltd, Pune</h1>
           <hr />

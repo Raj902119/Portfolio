@@ -12,6 +12,13 @@ import { SiMongodb } from "react-icons/si";
 import { TbBrandMysql } from "react-icons/tb";
 import { FaDatabase } from "react-icons/fa";
 
+import { SiNextdotjs } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { FaGitSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiGithubactions } from "react-icons/si";
+
+
 const Skills = () => {
   return (
     <div className="skills">
@@ -47,6 +54,11 @@ const Skills = () => {
             <hr />
           </div>
           <div className="box">
+            <SiNextdotjs className="icon" />
+            <h1>Next</h1>
+            <hr />
+          </div>
+          <div className="box">
             <SiTailwindcss className="icon" />
             <h1>Tailwind</h1>
             <hr />
@@ -74,6 +86,21 @@ const Skills = () => {
           <div className="box">
             <FaDatabase className="icon" />
             <h1>Database</h1>
+            <hr />
+          </div>
+          <div className="box">
+            <FaAws className="icon" />
+            <h1>AWS</h1>
+            <hr />
+          </div>
+          <div className="box">
+            <FaGitSquare className="icon" />
+            <h1>Git</h1>
+            <hr />
+          </div>
+          <div className="box">
+            <FaGithub className="icon" />
+            <h1>GitHub</h1>
             <hr />
           </div>
         </div>
